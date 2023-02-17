@@ -270,7 +270,7 @@ function LandingPage() {
             <section className="p-section3-landingpage">
               <div className="certi-heading font-face-gm">
                 <h3>
-                  PoO parses the blockchain data and creates a digital
+                  Ascribe parses the blockchain data and creates a digital
                   certificate as a proof of ownership
                 </h3>
               </div>
@@ -318,7 +318,7 @@ function LandingPage() {
               </div>
             </section>
             <div className="landigpage-footer font-face-gm">
-              <h3>Copyright © 2022 PoO. All Rights Reserved</h3>
+              <h3>Copyright © 2022 Ascribe. All Rights Reserved</h3>
             </div>
           </>
         )}
