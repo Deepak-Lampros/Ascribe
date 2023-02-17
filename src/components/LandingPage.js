@@ -318,7 +318,7 @@ function LandingPage() {
               </div>
             </section>
             <div className="landigpage-footer font-face-gm">
-              <h3>Copyright © 2022 Ascribe. All Rights Reserved</h3>
+              <h3>Copyright © 2023 Ascribe. All Rights Reserved</h3>
             </div>
           </>
         )}
