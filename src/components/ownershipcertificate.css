@@ -1,0 +1,52 @@
+.ownership-grid-container {
+  /* margin: 0 auto; */
+
+  background-image: url("../assests/images/Bg.svg");
+  width: 100%;
+  /* margin-top: 10%; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  min-height: 100vh;
+  max-height: auto;
+}
+.z-index-main-div {
+  padding-bottom: 20px;
+}
+.ownership-btn {
+  background-color: #f16386;
+  color: white;
+  width: 250px;
+  letter-spacing: 1px;
+  height: 3rem;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.ownrship-certi-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+  grid-gap: 20px 50px;
+  padding-top: 10%;
+  /* margin-top: 15vh; */
+}
+
+@media only screen and (max-width: 497px) {
+  .ownership-btn {
+    background-color: #f16386;
+    color: white;
+    width: 174px;
+    letter-spacing: 1px;
+    height: 3rem;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-size: 0.8rem;
+  }
+  .ownrship-certi-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(476px, 1fr));
+    grid-gap: 20px 50px;
+    padding-top: 22%;
+    /* margin-top: 15vh; */
+  }
+}
